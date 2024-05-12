@@ -5,9 +5,9 @@ import 'package:liveasy/Language/language.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
-      options: FirebaseOptions(
-          apiKey: 'AIzaSyAAJKbq8MO3ywkAmpqG7WZIxbuV1YseOtY',
-          appId: '1:470015562135:android:c60b872ddae768831d74d2',
+      options: const FirebaseOptions(
+          apiKey: '',
+          appId: '',
           messagingSenderId: 'messagingSenderId',
           projectId: 'liveasy-eac6c'));
   runApp(const MyApp());
