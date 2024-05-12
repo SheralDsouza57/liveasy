@@ -1,7 +1,6 @@
 # liveasy
 
-A new Flutter project.
-
+Phone Number authentication and OTP generation using Firebase.
 ## Getting Started
 
 This project is a starting point for a Flutter application.
